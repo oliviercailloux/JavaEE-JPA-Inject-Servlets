@@ -1,0 +1,7 @@
+applications:
+ - name: javaee-jpa-inject-servlets
+   path: target/javaee-jpa-inject-servlets.war
+   instances: 1
+   env:
+      JBP_CONFIG_LIBERTY: 'app_archive: {implicit_cdi: true, features: [webProfile-8.0]}'
+

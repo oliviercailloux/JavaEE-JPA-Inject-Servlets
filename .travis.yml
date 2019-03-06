@@ -1,0 +1,18 @@
+language: java
+git:
+  depth: 1
+jdk:
+  - openjdk8
+dist: trusty
+cache:
+  directories:
+  - "$HOME/.m2"
+deploy:
+  provider: bluemixcloudfoundry
+  skip_cleanup: true
+  username: olivier.cailloux@dauphine.fr
+  password: $BLUEMIX_PASSWORD
+  organization: olivier.cailloux@dauphine.fr
+  space: dev
+  region: eu-gb
+
