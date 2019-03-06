@@ -3,5 +3,6 @@ applications:
    path: target/javaee-jpa-inject-servlets.war
    instances: 1
    env:
-      JBP_CONFIG_LIBERTY: 'app_archive: {implicit_cdi: true, features: [webProfile-8.0]}'
+#jdbc-4.2 should be implied by webProfile-8.0, but if not explicit, Liberty logs “Unable to load conflicting versions of features "com.ibm.websphere.appserver.jdbc-4.1" and "com.ibm.websphere.appserver.jdbc-4.2"”.
+      JBP_CONFIG_LIBERTY: 'app_archive: {implicit_cdi: true, features: [webProfile-8.0, jdbc-4.2]}'
 
