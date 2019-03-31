@@ -4,5 +4,5 @@ image:https://travis-ci.com/oliviercailloux/JavaEE-JPA-Inject-Servlets.svg?branc
 
 A sample project to illustrate JPA with servlets and injection.
 
-You can see this very impressive application at work https://javaee-jpa-inject-servlets.eu-gb.mybluemix.net/getItemsServletJTAEntityManager[here].
+//You can see this very impressive application at work https://javaee-jpa-inject-servlets.eu-gb.mybluemix.net/getItemsServletJTAEntityManager[here].
 

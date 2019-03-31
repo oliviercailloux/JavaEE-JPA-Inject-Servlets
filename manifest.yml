@@ -1,3 +1,4 @@
+#NB this is incorrect because missing the database service: IBM Liberty does not come with a default database if not asked for specifically.
 applications:
  - name: javaee-jpa-inject-servlets
    path: target/javaee-jpa-inject-servlets.war
