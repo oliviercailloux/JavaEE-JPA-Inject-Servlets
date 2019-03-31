@@ -34,8 +34,7 @@ public class Item {
 	/**
 	 * Sets the item name.
 	 *
-	 * @param name
-	 *            <code>null</code> strings are converted to empty strings.
+	 * @param name <code>null</code> strings are converted to empty strings.
 	 */
 	public void setName(String name) {
 		this.name = name == null ? "" : name;
